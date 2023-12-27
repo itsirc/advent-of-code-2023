@@ -1,0 +1,120 @@
+digraph input {
+  {
+    qm [shape=invtriangle color=blue]
+    mj [shape=invhouse color=red]
+    qc [shape=invtriangle color=blue]
+    ng [shape=invtriangle color=blue]
+    qh [shape=invtriangle color=blue]
+    bt [shape=invhouse color=red]
+    hh [shape=invtriangle color=blue]
+    gk [shape=invtriangle color=blue]
+    js [shape=invtriangle color=blue]
+    pc [shape=invtriangle color=blue]
+    mb [shape=invtriangle color=blue]
+    tp [shape=invtriangle color=blue]
+    xq [shape=invtriangle color=blue]
+    bx [shape=invtriangle color=blue]
+    mn [shape=invtriangle color=blue]
+    cv [shape=invtriangle color=blue]
+    rh [shape=invtriangle color=blue]
+    md [shape=invtriangle color=blue]
+    pz [shape=invtriangle color=blue]
+    bz [shape=invtriangle color=blue]
+    jz [shape=invtriangle color=blue]
+    sz [shape=invtriangle color=blue]
+    lr [shape=invtriangle color=blue]
+    xs [shape=invtriangle color=blue]
+    kl [shape=invtriangle color=blue]
+    hz [shape=invtriangle color=blue]
+    hk [shape=invtriangle color=blue]
+    vk [shape=invtriangle color=blue]
+    bh [shape=invtriangle color=blue]
+    vq [shape=invtriangle color=blue]
+    ks [shape=invtriangle color=blue]
+    qs [shape=invhouse color=red]
+    dl [shape=invhouse color=red]
+    lf [shape=invtriangle color=blue]
+    fr [shape=invhouse color=red]
+    xn [shape=invtriangle color=blue]
+    hf [shape=invtriangle color=blue]
+    sv [shape=invtriangle color=blue]
+    rs [shape=invhouse color=red]
+    rd [shape=invhouse color=red]
+    cj [shape=invtriangle color=blue]
+    broadcaster [shape=oval]
+    zs [shape=invtriangle color=blue]
+    vr [shape=invtriangle color=blue]
+    nd [shape=invtriangle color=blue]
+    jb [shape=invtriangle color=blue]
+    rv [shape=invhouse color=red]
+    bp [shape=invtriangle color=blue]
+    ss [shape=invtriangle color=blue]
+    lx [shape=invtriangle color=blue]
+    cs [shape=invhouse color=red]
+    bb [shape=invtriangle color=blue]
+    mf [shape=invtriangle color=blue]
+    zm [shape=invtriangle color=blue]
+    mr [shape=invtriangle color=blue]
+    rz [shape=invtriangle color=blue]
+    vg [shape=invtriangle color=blue]
+    sq [shape=invtriangle color=blue]
+  }
+  qm -> mj, xn
+  qm:0-js:0-pc:0-pz:0-lr:0-xn:0-mf:0-mr:0]mj -> hz, bt, lr, sq, qh, vq
+  qc -> qs, vg
+  ng -> vr
+  qh -> sq
+  mj:0]bt -> rs
+  hh -> qs, bx
+  gk -> cs, bb
+  js -> mj
+  pc -> mj, mr
+  mb -> rd, xs
+  tp -> qs, ks
+  xq -> tp, qs
+  bx -> sz
+  mn -> cs, md
+  cv -> rd
+  rh -> rd, sv
+  md -> cs
+  pz -> mj, vq
+  bz -> rd, hk
+  jz -> vk
+  sz -> jz
+  lr -> pz, mj
+  xs -> cv, rd
+  kl -> rd, mb
+  hz -> pc
+  hk -> rz, rd
+  vk -> qc
+  bh -> zm
+  vq -> qm
+  ks -> qs, nd
+  qc:0-hh:0-tp:0-xq:0-ks:0-hf:0-nd:0]qs -> dl, jz, bx, vk, vg, hh, sz
+  qs:0]dl -> rs
+  lf -> rh, rd
+  rd:0]fr -> rs
+  xn -> mj, qh
+  hf -> qs, xq
+  sv -> rd, ng
+  bt:0-dl:0-fr:0-rv:0]rs -> rx
+  mb:0-cv:0-rh:0-bz:0-xs:0-kl:0-hk:0-lf:0-sv:0]rd -> ng, fr, rz, lf, vr
+  cj -> ss, cs
+  broadcaster -> hh, lr, bp, lf
+  zs -> cs, mn
+  vr -> bz
+  nd -> qs
+  jb -> cj, cs
+  cs:0]rv -> rs
+  bp -> cs, lx
+  ss -> zs
+  lx -> gk
+  gk:0-mn:0-md:0-cj:0-zs:0-jb:0-bp:0-bb:0-zm:0]cs -> lx, ss, rv, bh, bp
+  bb -> bh, cs
+  mf -> mj, hz
+  zm -> cs, jb
+  mr -> mj, js
+  rz -> kl
+  vg -> hf
+  sq -> mf
+}
